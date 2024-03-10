@@ -1,5 +1,5 @@
 /*=============================
-* Common CSS
+  Common CSS
 ==============================*/
 body{
     color: #666666;
@@ -18,7 +18,7 @@ img{
     max-width: 100%;
 }
 /*=============================
-* Top Header CSS
+ Top Header CSS
 ==============================*/
 .header_area{
     width: 100%;
@@ -33,6 +33,7 @@ img{
 .mini_menu{
     width: 70%;
     float: left;
+    padding-top: 1px;
 }
 .mini_menu ul{
     margin: 0;
@@ -49,7 +50,7 @@ img{
     background: #ffffff;
     content: "";
     position: absolute;
-    height: 14px;
+    height: 13px;
     width: 1px;
     top: 6px;
     right: -10px;
@@ -69,25 +70,37 @@ img{
 .search_area{
     width: 30%;
     float: right;
-}
+ }
 .search_area form{
     background: #ffffff;
-    border-radius: 25px ;
-    width: 96%;
+    border-radius: 25px;
     max-width: 210px;
-    float: right; padding: 2%;
-}
+    width: 96%;
+    float: right;
+    padding: 2%;
+ }
 .search_area input{
     border: 0px solid;
-   width: 75%;
-   padding: 2%;
-   float: left;
-   color: #000;
-}
+    width: 75%;
+    padding: 1%;
+    float: left;
+    color: black;
+ }
 .search_area input[type="submit"]{
     background: url(img/Search.png);
     background-repeat: no-repeat;
     background-position: right;
-    width: 23%;
+   width: 23%;
+ }
+
+
+/*=============================
+ main Header CSS
+==============================*/
+
+#main_header_area{
+    width: 100%;
 }
+
+
 
