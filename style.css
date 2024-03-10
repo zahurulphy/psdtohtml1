@@ -90,7 +90,8 @@ img{
     background: url(img/Search.png);
     background-repeat: no-repeat;
     background-position: right;
-   width: 23%;
+    width: 23%;
+    cursor: pointer;
  }
 
 
@@ -100,7 +101,67 @@ img{
 
 #main_header_area{
     width: 100%;
+    clear: both;
 }
+.inner_header{
+    overflow: hidden;
+    padding: 40px 0;
+}
+.logo_area{
+    float: left;
+    width: 240px;
+}
+.social_area{
+    float: right;
+    max-width: 600px;
+    width: 100% ;
+    padding-top: 20px;
+     
+}
+.social_area ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-align: right;
+   
+}
+.social_area ul li{
+ display: inline-block;
+ margin-left: 12px;
+
+}
+.social_area ul li a{
+ display: block;
+text-decoration: none;
+}
+.social_area ul li a i{
+    background: #333333;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    width: 35px;
+    padding-top: 8px;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+    transition: 0.5s;
+}
+.social_area ul li a:hover i.fa-linkedin{
+    background: #ba2e1f;
+}
+.social_area ul li a:hover i.fa-twitter{
+    background: #ba2e1f;
+}
+.social_area ul li a:hover i.fa-pinterest{
+    background: #ba2e1f;
+}
+.social_area ul li a:hover i.fa-google-plus-g{
+    background: #ba2e1f;
+}
+.social_area ul li a:hover i.fa-rss{
+    background: #ba2e1f;
+}
+
 
 
 
